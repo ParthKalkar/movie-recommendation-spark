@@ -30,9 +30,9 @@ Based on the feedback from different types of rating systems, companies can gath
 To know more - [Click Here](#am)
 
 
-## Github
-Github repository: https://github.com/ParthKalkar/movie-recommendation-spark
-
+## Github && HackMD
+[Github repository](https://github.com/ParthKalkar/movie-recommendation-spark)
+[Hackmd file](https://hackmd.io/r_luvluoRlWmDsAc98-RrQ?both)
 
 ## Prerequisites <a id="pr"> </a>
 
