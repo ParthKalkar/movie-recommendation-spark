@@ -101,7 +101,6 @@ Thus, this rmse function tries to check the error if we had a 'not-smart' model,
   }
   ``` 
   We changed the regular expression that captures everithing beween 2 commas unless these commans are not inside the quotation marks. After we cropp 2 commas from matchin string and save it as a movie title. A screenshot for cases with/without quotations are provided below:
-
 <a href="https://drive.google.com/uc?export=view&id=<FILEID>"><img src="https://drive.google.com/uc?export=view&id=17T2QotPSHzoo9h_d01xUhHauUlKXbp3o" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"></a>
   
 
@@ -200,6 +199,7 @@ if (args.length != 4) {
  
  
 ### Video Demonstation (Interactive mode) <a id="vd"> </a>
+In case the video does not play, use a [link](https://drive.google.com/file/d/1dqSg-rLvtGiy_atpguOd8v5Ien-wG32I/view?usp=sharing)
 
 <a href="https://drive.google.com/uc?export=view&id=<FILEID>"><img src="https://drive.google.com/uc?export=view&id=1dqSg-rLvtGiy_atpguOd8v5Ien-wG32I" style="width: 650px; max-width: 80%; height: auto" title="Click to enlarge picture"></a>
 
@@ -266,7 +266,7 @@ So we can observe that the best rank is 8, lower or higher rank results in a sli
 Team name: **2**
 
 * Vladimir Bliznyukov ([@univacone](https://t.me/univacone)), 
-    * completed code
+    * completed code, compiled the code
     * deployed the system on cluster
     * wrote report
 * Parth Kalkar ([@ParthKalkar](https://t.me/ParthKalkar)),
@@ -359,4 +359,3 @@ In order to find the user and item matrix, the following problem is solved:
 By fixing one of the matrices U or V, we obtain a quadratic form which can be solved directly. The solution of the modified problem is guaranteed to monotonically decrease the overall cost function. By applying this step alternately to the matrices U and V, we can iteratively improve the matrix factorization.
 
 The matrix R is given in its sparse representation as a tuple of (i,j,r) where *i* denotes the row index, *j* the column index and *r* is the matrix value at position (i,j).
-
