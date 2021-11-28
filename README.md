@@ -101,6 +101,7 @@ Thus, this rmse function tries to check the error if we had a 'not-smart' model,
   }
   ``` 
   We changed the regular expression that captures everithing beween 2 commas unless these commans are not inside the quotation marks. After we cropp 2 commas from matchin string and save it as a movie title. A screenshot for cases with/without quotations are provided below:
+
 <a href="https://drive.google.com/uc?export=view&id=<FILEID>"><img src="https://drive.google.com/uc?export=view&id=17T2QotPSHzoo9h_d01xUhHauUlKXbp3o" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"></a>
   
 
